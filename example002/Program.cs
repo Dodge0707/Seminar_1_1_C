@@ -2,9 +2,10 @@
 int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
+int c = numberA * numberA;
 
 
-if (numberA * numberA == numberB)
+if (c == numberB)
 {
     Console.WriteLine("Да!");
 }
